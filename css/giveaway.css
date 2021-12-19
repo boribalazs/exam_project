@@ -1,0 +1,124 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 900px;
+  }
+
+.h-pic2 {
+    height: 70vh;
+    background: url('../images/ga_header.jpg') center/cover no-repeat;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  /* Giveaway page*/
+
+  
+  .whole_box {
+    background-color: #b6daa9;
+    padding: 4rem;
+    text-align: center;
+    font-weight: 400;
+    font-family: Ebrima;
+    font-size: 24px;
+    color: #2f323a;
+    margin: 2rem;
+    box-shadow: 0 0 15px 4px rgba(35, 71, 44, 0.7);
+    border-radius: 10px;
+  }
+
+  .top{
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .quality_flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+ 
+  .input_class{
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(35, 71, 44, 0.3);
+    border: 0;
+    width: 25rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 2rem;
+  }
+  
+  .button {
+    padding: 10px;
+    border: 1px;
+    border-color: #2d4739;
+    background-color: #2d4739;
+    color: #f2f2f2;
+    font-weight: 600;
+    border-radius: 5px;
+    height: 2rem;
+    width: 6rem;
+    cursor: pointer;
+    margin-bottom: 5rem;
+  }
+   
+
+.card_content_giveaway {
+    width: 30rem;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 0rem;
+    padding-bottom: 1rem;
+    font-style: italic;
+    margin-left: 2rem;
+    position: relative;
+    display: block;
+    overflow: auto;
+    
+  }
+.card_content_giveaway2 {
+    float: right;
+    padding-right: 0rem;
+    width: 25rem;
+    margin-right: 2rem;
+    position: relative;
+  }
+  
+  .tea_box {
+    width: 13rem;
+  }
+  
+
+
+@media screen and (min-width: 360px) {
+    .quality_flexbox {
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    .input_class {
+      width: 25rem;
+    }
+}
+    
+
+
+@media screen and (min-width: 900px) {
+    .quality_flexbox {
+        justify-content: space-between;
+      }
+    
+}
+  /* End of Giveaway page*/
